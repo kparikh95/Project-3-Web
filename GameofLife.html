@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="GameofLife.css">
+    <script type="text/javascript" src="GameofLife.js"></script>
+</head>
+<body onload="onStart()">
+
+<h1 id="gene"></h1>
+<div id="ins">
+<h1>Instructions</h1>
+
+   <p>1. Click the cells you want to keep alive in Generation 0</p>
+    <p>2. Press the Next gen button to increment the game by One Generation</p>
+    <p>3. Press the 23 Gen to increment the game by 23 Generation</p>
+    <p>4. Press the Reset button to clear the contents of the grid and start a new game</p>
+
+<br>
+<button id = 'step' class = "button" onclick="inc1();"> Next Gen </button>
+<br>
+<button id = 'step23' class = "button" onclick="inc23();"> 23 Gen </button>
+<br>
+<button id = 'reset' class = "button" onclick="reset();"> Reset </button>
+<br><br>
+<a href="http://codd.cs.gsu.edu/~kparikh2/Project3.pptx">Powerpoint Presentation</a>
+</div>
+<br><br><br><br><br><br><br><br>
+
+</body>
+</html>
